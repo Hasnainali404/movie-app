@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-/* src/index.css */
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
@@ -8,6 +7,4 @@
 .scrollbar-hide {
   -ms-overflow-style: none;
   scrollbar-width: none;
-  /* Prevent ghosting during high-speed GPU transitions */
-  backface-visibility: hidden;
 }
